@@ -63,9 +63,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
             <Switch
               checked={darkMode}
               onChange={handleThemeChange}
-              {...AppBar}
               color="secondary"
-              defaultChecked
               size="small"
             />
           </Box>
